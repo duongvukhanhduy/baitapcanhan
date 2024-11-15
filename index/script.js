@@ -22,7 +22,7 @@ document.getElementById("addFishBtn").addEventListener("click", () => {
 
   // Thêm cá mới vào hồ cá
   const newFish = document.createElement("img");
-  newFish.src = "image/ca1.html.png"; // Đường dẫn ảnh cá mới
+  newFish.src = "ca1.html.png"; // Đường dẫn ảnh cá mới
   newFish.alt = "New Fish";
   newFish.classList.add("object", "new-fish");
   newFish.style.left = `${Math.random() * 800}px`; // Vị trí ngẫu nhiên trong hồ
